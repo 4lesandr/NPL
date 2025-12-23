@@ -1,6 +1,0 @@
-version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
-options: "255d60b2029d378f1e7001f1164a1e2ffc63d9857b99b9bb524dcc3592fe50e1"
-build_start_time: [1766494953, 42129000]
-build_end_time: [1766494953, 394287000]
-inputs:
-  "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/Sources/Server/main.swift": [1766484125, 907467554]
