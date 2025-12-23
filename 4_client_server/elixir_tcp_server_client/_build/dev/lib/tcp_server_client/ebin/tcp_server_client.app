@@ -1,0 +1,1 @@
+{application,tcp_server_client,[{modules,['Elixir.TcpServerClient','Elixir.TcpServerClient.Client','Elixir.TcpServerClient.Server']},{optional_applications,[]},{applications,[kernel,stdlib,elixir,logger]},{description,"tcp_server_client"},{registered,[]},{vsn,"0.1.0"}]}.

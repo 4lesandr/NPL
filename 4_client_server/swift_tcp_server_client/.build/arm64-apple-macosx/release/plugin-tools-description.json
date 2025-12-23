@@ -1,0 +1,411 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Client-arm64-apple-macosx15.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Client.build/sources",
+      "importPath" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/Sources/Client/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Client.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "Client",
+      "moduleOutputPath" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Modules/Client.swiftmodule",
+      "objects" : [
+        "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Client.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "Client_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swift_tcp_server_client"
+      ],
+      "outputFileMapPath" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Client.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Client.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Modules/Client.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/Sources/Client/main.swift"
+      ],
+      "tempsPath" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Client.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.Server-arm64-apple-macosx15.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build/sources",
+      "importPath" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/Sources/Server/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "Server",
+      "moduleOutputPath" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Modules/Server.swiftmodule",
+      "objects" : [
+        "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "Server_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swift_tcp_server_client"
+      ],
+      "outputFileMapPath" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Modules/Server.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/Sources/Server/main.swift"
+      ],
+      "tempsPath" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Client" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Client",
+      "-package-name",
+      "swift_tcp_server_client",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/Sources/Client/main.swift",
+      "-I",
+      "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "Client_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swift_tcp_server_client",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "Server" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Server",
+      "-package-name",
+      "swift_tcp_server_client",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/Sources/Server/main.swift",
+      "-I",
+      "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "Server_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swift_tcp_server_client",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Client" : [
+
+    ],
+    "Server" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Client.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/Sources/Client/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Client.build/sources"
+    },
+    "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Client.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Client.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Client.product/Objects.LinkFileList"
+    },
+    "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/Sources/Server/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build/sources"
+    },
+    "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.product/Objects.LinkFileList"
+    },
+    "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

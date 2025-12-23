@@ -1,0 +1,129 @@
+# Общие файлы
+*.swp
+*.swo
+*~
+.DS_Store
+*.log
+*.tmp
+*.temp
+
+# Выходные файлы программ
+output.json
+*.out
+
+# Rust
+target/
+# Cargo.lock - обычно коммитится для приложений, но можно игнорировать
+# Cargo.lock
+*.pdb
+
+# Scala / SBT
+target/
+project/target/
+project/project/
+project/.sbt/
+.sbt/
+*.class
+*.jar
+
+# Haskell
+*.hi
+*.o
+*.exe
+fibonacci
+Fibonacci
+
+# OCaml
+*.cmi
+*.cmo
+*.cmx
+*.o
+*.a
+*.so
+fibonacci
+
+# Erlang
+*.beam
+*.app
+*.appup
+*.rel
+erl_crash.dump
+*.pid
+
+# Elixir
+_build/
+deps/
+.elixir_ls/
+*.beam
+
+# Swift
+.build/
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+.swiftpm/
+Package.resolved
+
+# Groovy
+.gradle/
+build/
+*.class
+
+# Julia
+Manifest.toml
+.julia/
+
+# D
+.dub/
+*.exe
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+# Objective-C
+*.o
+*.dSYM/
+text_parser
+*.app
+
+# ML
+text_parser
+*.sml.cm
+*.sml.s
+
+# Lua
+*.luac
+
+# Python (если будет использоваться)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Node.js (если будет использоваться)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Временные файлы компиляции
+*.class
+*.exe
+*.dll
+*.dylib
+*.so
+

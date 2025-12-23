@@ -1,0 +1,23 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server'
+relocations:
+  - { offset: 0x99101, size: 0x8, addend: 0x0, symName: _Server_main, symObjAddr: 0x0, symBinAddr: 0x100001AA4, symSize: 0x338 }
+  - { offset: 0x99125, size: 0x8, addend: 0x0, symName: '_$s6Server4ports6UInt16Vvp', symObjAddr: 0x4C18, symBinAddr: 0x1000084C0, symSize: 0x0 }
+  - { offset: 0x9913F, size: 0x8, addend: 0x0, symName: '_$s6Server8listener7Network10NWListenerCvp', symObjAddr: 0x4C20, symBinAddr: 0x1000084C8, symSize: 0x0 }
+  - { offset: 0x99179, size: 0x8, addend: 0x0, symName: _Server_main, symObjAddr: 0x0, symBinAddr: 0x100001AA4, symSize: 0x338 }
+  - { offset: 0x992D8, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x338, symBinAddr: 0x100001DDC, symSize: 0x44 }
+  - { offset: 0x992EC, size: 0x8, addend: 0x0, symName: '_$s6Servery7Network12NWConnectionCcfU_', symObjAddr: 0x37C, symBinAddr: 0x100001E20, symSize: 0x154 }
+  - { offset: 0x99395, size: 0x8, addend: 0x0, symName: '_$s7Network12NWConnectionCIeghg_SgWOy', symObjAddr: 0x4D0, symBinAddr: 0x100001F74, symSize: 0x10 }
+  - { offset: 0x993A9, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueCMa', symObjAddr: 0x4E0, symBinAddr: 0x100001F84, symSize: 0x44 }
+  - { offset: 0x9940A, size: 0x8, addend: 0x0, symName: '_$s6Servery7Network12NWConnectionCcfU_y10Foundation4DataVSg_AD14ContentContextCSgSbAB7NWErrorOSgtYbcfU_', symObjAddr: 0x524, symBinAddr: 0x100001FC8, symSize: 0x614 }
+  - { offset: 0x997BE, size: 0x8, addend: 0x0, symName: '_$s6Servery7Network12NWConnectionCcfU_y10Foundation4DataVSg_AD14ContentContextCSgSbAB7NWErrorOSgtYbcfU_TA', symObjAddr: 0xB38, symBinAddr: 0x1000025DC, symSize: 0x10 }
+  - { offset: 0x997D2, size: 0x8, addend: 0x0, symName: '_$s7Network7NWErrorOSgWOc', symObjAddr: 0xB48, symBinAddr: 0x1000025EC, symSize: 0x48 }
+  - { offset: 0x997E6, size: 0x8, addend: 0x0, symName: '_$s7Network7NWErrorOSgWOh', symObjAddr: 0xB90, symBinAddr: 0x100002634, symSize: 0x40 }
+  - { offset: 0x997FA, size: 0x8, addend: 0x0, symName: '_$s6Servery7Network12NWConnectionCcfU_y10Foundation4DataVSg_AD14ContentContextCSgSbAB7NWErrorOSgtYbcfU_yANYbcfU_', symObjAddr: 0xBD0, symBinAddr: 0x100002674, symSize: 0x1B0 }
+  - { offset: 0x998F9, size: 0x8, addend: 0x0, symName: '_$s6Servery7Network12NWConnectionCcfU_y10Foundation4DataVSg_AD14ContentContextCSgSbAB7NWErrorOSgtYbcfU_yAH_AKSbANtYbcfU0_', symObjAddr: 0xD80, symBinAddr: 0x100002824, symSize: 0x4 }
+  - { offset: 0x99944, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0xD84, symBinAddr: 0x100002828, symSize: 0x40 }
+  - { offset: 0x99958, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0xDC4, symBinAddr: 0x100002868, symSize: 0x40 }
+  - { offset: 0x9996C, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgWOe', symObjAddr: 0xE04, symBinAddr: 0x1000028A8, symSize: 0x14 }
+  - { offset: 0x99980, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0xE18, symBinAddr: 0x1000028BC, symSize: 0x40 }
+...

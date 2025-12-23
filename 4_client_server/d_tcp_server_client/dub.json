@@ -1,0 +1,8 @@
+{
+    "name": "tcp_server_client",
+    "description": "TCP сервер и клиент на D",
+    "authors": ["NPL2"],
+    "license": "MIT",
+    "dependencies": {}
+}
+

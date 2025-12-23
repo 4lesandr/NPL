@@ -1,0 +1,29 @@
+{
+  "total_rows": 4,
+  "data": [
+    {
+      "name": "Иван",
+      "city": "Москва",
+      "age": "25",
+      "email": "ivan@example.com"
+    },
+    {
+      "name": "Мария",
+      "city": "Санкт-Петербург",
+      "age": "30",
+      "email": "maria@example.com"
+    },
+    {
+      "name": "Петр",
+      "city": "Казань",
+      "age": "28",
+      "email": "petr@example.com"
+    },
+    {
+      "name": "Анна",
+      "city": "Новосибирск",
+      "age": "35",
+      "email": "anna@example.com"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build/Server.d",
+    "object": "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build/Server.o",
+    "swift-dependencies": "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build/master.swiftdeps"
+  },
+  "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/Sources/Server/main.swift": {
+    "object": "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build/main.swift.o",
+    "swiftmodule": "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/aleksandr/Desktop/NPL2/4_client_server/swift_tcp_server_client/.build/arm64-apple-macosx/release/Server.build/main.swiftdeps"
+  }
+}
